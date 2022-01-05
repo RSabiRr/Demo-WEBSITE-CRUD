@@ -1,0 +1,515 @@
+﻿@model  Setting
+@{
+    ViewData["Title"] = "Home Page";
+}
+ 
+    <header>
+        <div class="container d-flex align-items-center flex-column py-5 " id="header">
+            <img class="avatar mt-5 " src="~/img/male-avatar-profile-icon-of-smiling-caucasian-man-vector.jpg" alt="">
+            <h1 class=" text-white text-uppercase mb-0 ">
+              @Model.Content
+            </h1>
+            <div class="icon d-flex align-items-center flex-row  ">
+                <div class="divider-custom-line ">
+                    <ul>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="display-6">
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="divider-custom-line m-2">
+                    <ul>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="  fw-normal fs-4 mt-3 text-white ">
+               @Model.Title
+            </p>
+        </div>
+    </header>
+
+    <section id="portofilo">
+        <div class="container d-flex align-items-center flex-column py-5  " id="header">
+            <h1 class="  text-dark text-uppercase mb-0  ">
+                Portofilo
+            </h1>
+            <div class="icon d-flex align-items-center flex-row mt-3  ">
+                <div class="divider-custom-line ">
+                    <ul>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="display-6">
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="divider-custom-line m-2">
+                    <ul>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-5">
+                <div class="col-md-6 col-lg-4 mb-5 ">
+                    <div class="conn ">
+                        <img class="img-fluid   op" src="~/img/cabin.png" alt="..." />
+                        <div class="con-text">
+                            <div class="con-link">
+                                <a href="" data-bs-toggle="modal" data-bs-target="#portfolioModal1">+</a>
+                            </div>
+                        </div>
+                        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1"
+                            aria-labelledby="portfolioModal1" aria-hidden="true">
+                            <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                    <div class="modal-header border-0"><button class="btn-close" type="button"
+                                            data-bs-dismiss="modal" aria-label="Close"></button></div>
+                                    <div class="modal-body text-center pb-5">
+                                        <div class="container">
+                                            <div class="row justify-content-center">
+                                                <div class="col-lg-8  ">
+                                                    <h2
+                                                        class="portfolio-modal-title text-dark text-uppercase fs-1 mb-3">
+                                                        Log
+                                                        Cabin</h2>
+
+                                                    <div
+                                                        class="icon modalicon d-flex align-items-center justify-content-center flex-row w-75 mb-4 ml-5">
+                                                        <div class="divider-custom-line px-6  me-2 ">
+                                                            <ul>
+                                                                <li></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="display-6">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                        <div class="divider-custom-line m-2">
+                                                            <ul>
+                                                                <li></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+
+                                                    <img class="img-fluid  w-100 rounded mb-5" src="~/img/cabin.png"
+                                                        alt="..." />
+                                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                        elit. Mollitia neque assumenda ipsam nihil, molestias magnam,
+                                                        recusandae quos quis inventore quisquam velit asperiores, vitae?
+                                                        Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                                        <i class="fas fa-times fa-fw"></i>
+                                                        Close Window
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="conn">
+                        <img class="img-fluid   op" src="~/img/cake.png" alt="..." />
+                        <div class="con-text">
+                            <div class="con-link">
+                                <a href="" data-bs-toggle="modal" data-bs-target="#Modal2">+</a>
+                            </div>
+                        </div>
+                        <div class="portfolio-modal modal fade" id="Modal2" tabindex="-1" aria-labelledby="Modal2"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                    <div class="modal-header border-0"><button class="btn-close" type="button"
+                                            data-bs-dismiss="modal" aria-label="Close"></button></div>
+                                    <div class="modal-body text-center pb-5">
+                                        <div class="container">
+                                            <div class="row justify-content-center">
+                                                <div class="col-lg-8">
+                                                    <h2
+                                                        class="portfolio-modal-title text-dark text-uppercase fs-1 mb-3">
+                                                        Tasty Cake</h2>
+
+                                                    <div
+                                                        class=" modalicon icon d-flex align-items-center justify-content-center flex-row w-75 mb-4 ml-5 ">
+                                                        <div class="divider-custom-line px-6 me-2 ">
+                                                            <ul>
+                                                                <li></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="display-6">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                        <div class="divider-custom-line m-2">
+                                                            <ul>
+                                                                <li></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+
+                                                    <img class="img-fluid   mb-5" src="~/img/cake.png" alt="..." />
+                                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                        elit. Mollitia neque assumenda ipsam nihil, molestias magnam,
+                                                        recusandae quos quis inventore quisquam velit asperiores, vitae?
+                                                        Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                                        <i class="fas fa-times fa-fw"></i>
+                                                        Close Window
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="conn">
+                        <img class="img-fluid   op" src="~/img/circus.png" alt="..." />
+                        <div class="con-text">
+                            <div class="con-link">
+                                <a href="" data-bs-toggle="modal" data-bs-target="#Modal3">+</a>
+                            </div>
+                        </div>
+                        <div class="portfolio-modal modal fade" id="Modal3" tabindex="-1" aria-labelledby="Modal3"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                    <div class="modal-header border-0"><button class="btn-close" type="button"
+                                            data-bs-dismiss="modal" aria-label="Close"></button></div>
+                                    <div class="modal-body text-center pb-5">
+                                        <div class="container">
+                                            <div class="row justify-content-center">
+                                                <div class="col-lg-8">
+                                                    <h2
+                                                        class="portfolio-modal-title text-dark text-uppercase fs-1 mb-3">
+                                                        Circus Tent</h2>
+
+                                                    <div
+                                                        class="icon modalicon d-flex align-items-center justify-content-center flex-row w-75 mb-4 ml-5 ">
+                                                        <div class="divider-custom-line px-6 me-2 ">
+                                                            <ul>
+                                                                <li></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="display-6">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                        <div class="divider-custom-line m-2">
+                                                            <ul>
+                                                                <li></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <img class="img-fluid   mb-5" src="~/img/circus.png" alt="..." />
+                                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                        elit. Mollitia neque assumenda ipsam nihil, molestias magnam,
+                                                        recusandae quos quis inventore quisquam velit asperiores, vitae?
+                                                        Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                                        <i class="fas fa-times fa-fw"></i>
+                                                        Close Window
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="conn">
+                        <img class="img-fluid   op" src="~/img/game.png" alt="..." />
+                        <div class="con-text">
+                            <div class="con-link">
+                                <a href="" data-bs-toggle="modal" data-bs-target="#Modal4">+</a>
+                            </div>
+                        </div>
+                        <div class="portfolio-modal modal fade" id="Modal4" tabindex="-1" aria-labelledby="Modal4"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                    <div class="modal-header border-0"><button class="btn-close" type="button"
+                                            data-bs-dismiss="modal" aria-label="Close"></button></div>
+                                    <div class="modal-body text-center pb-5">
+                                        <div class="container">
+                                            <div class="row justify-content-center">
+                                                <div class="col-lg-8">
+                                                    <h2
+                                                        class="portfolio-modal-title text-dark text-uppercase fs-1 mb-3">
+                                                        Controller</h2>
+
+                                                    <div
+                                                        class="icon modalicon d-flex align-items-center justify-content-center flex-row w-75 mb-4 ml-5 ">
+                                                        <div class="divider-custom-line px-6 me-2">
+                                                            <ul>
+                                                                <li></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="display-6">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                        <div class="divider-custom-line m-2">
+                                                            <ul>
+                                                                <li></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+
+
+
+
+                                                    <img class="img-fluid   mb-5" src="~/img/game.png" alt="..." />
+                                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                        elit. Mollitia neque assumenda ipsam nihil, molestias magnam,
+                                                        recusandae quos quis inventore quisquam velit asperiores, vitae?
+                                                        Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                                        <i class="fas fa-times fa-fw"></i>
+                                                        Close Window
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="conn">
+                        <img class="img-fluid   op" src="~/img/safe.png" alt="..." />
+                        <div class="con-text">
+                            <div class="con-link">
+                                <a href="" data-bs-toggle="modal" data-bs-target="#Modal5">+</a>
+                            </div>
+                        </div>
+                        <div class="portfolio-modal modal fade" id="Modal5" tabindex="-1" aria-labelledby="Modal5"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                    <div class="modal-header border-0"><button class="btn-close" type="button"
+                                            data-bs-dismiss="modal" aria-label="Close"></button></div>
+                                    <div class="modal-body text-center pb-5">
+                                        <div class="container">
+                                            <div class="row justify-content-center">
+                                                <div class="col-lg-8">
+                                                    <h2
+                                                        class="portfolio-modal-title text-dark text-uppercase fs-1 mb-3">
+                                                        Locked Safe</h2>
+
+                                                    <div
+                                                        class="icon modalicon d-flex align-items-center justify-content-center flex-row  w-75 mb-4 ml-5">
+                                                        <div class="divider-custom-line px-6 me-2 ">
+                                                            <ul>
+                                                                <li></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="display-6">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                        <div class="divider-custom-line m-2">
+                                                            <ul>
+                                                                <li></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+
+
+                                                    <img class="img-fluid   mb-5" src="~/img/safe.png" alt="..." />
+                                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                        elit. Mollitia neque assumenda ipsam nihil, molestias magnam,
+                                                        recusandae quos quis inventore quisquam velit asperiores, vitae?
+                                                        Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                                        <i class="fas fa-times fa-fw"></i>
+                                                        Close Window
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="conn">
+                        <img class="img-fluid   op" src="~/img/submarine.png" alt="..." />
+                        <div class="con-text">
+                            <div class="con-link">
+                                <a href="" data-bs-toggle="modal" data-bs-target="#Modal6">+</a>
+                            </div>
+                        </div>
+                        <div class="portfolio-modal modal fade" id="Modal6" tabindex="-1" aria-labelledby="Modal6"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                    <div class="modal-header border-0"><button class="btn-close" type="button"
+                                            data-bs-dismiss="modal" aria-label="Close"></button></div>
+                                    <div class="modal-body text-center pb-5">
+                                        <div class="container">
+                                            <div class="row justify-content-center">
+                                                <div class="col-lg-8">
+                                                    <h2
+                                                        class="portfolio-modal-title text-dark text-uppercase fs-1 mb-3">
+                                                        Submarine
+                                                    </h2>
+
+                                                    <div
+                                                        class="icon modalicon d-flex align-items-center justify-content-center flex-row  w-75 mb-4 ml-5">
+                                                        <div class="divider-custom-line px-6 me-2">
+                                                            <ul>
+                                                                <li></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="display-6">
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                        <div class="divider-custom-line m-2">
+                                                            <ul>
+                                                                <li></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+
+
+
+                                                    <img class="img-fluid   mb-5" src="~/img/submarine.png" alt="..." />
+                                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                        elit. Mollitia neque assumenda ipsam nihil, molestias magnam,
+                                                        recusandae quos quis inventore quisquam velit asperiores, vitae?
+                                                        Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                                        <i class="fas fa-times fa-fw"></i>
+                                                        Close Window
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container d-flex align-items-center flex-column py-5 ">
+
+            <h1 class=" text-white text-uppercase mb-0 ">
+                About
+            </h1>
+            <div class="icon d-flex align-items-center flex-row  ">
+                <div class="divider-custom-line ">
+                    <ul>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="display-6">
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="divider-custom-line m-2">
+                    <ul>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-lg-4 ms-auto">
+                    <p class="blockquote">@Model.AboutTitle1</p>
+                </div>
+                <div class="col-lg-4 me-auto">
+                    <p class="blockquote">
+                       @Model.AboutTitle2
+                    </p>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <a class="btn btn-outline-light mt-5" href=""> <i class="fas fa-file-download"></i> Free Download!</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="contact">
+
+        <div class="container d-flex align-items-center flex-column py-5 ">
+
+            <h1 class="  text-uppercase mb-0 ">
+                Contact me
+            </h1>
+            <div class="icon d-flex align-items-center flex-row  ">
+                <div class="divider-custom-line ">
+                    <ul>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="display-6">
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="divider-custom-line m-2">
+                    <ul>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="container col-lg-6 mt-5">
+                <form>
+                   
+                    <div class="row mb-3">
+                        <label for="Fullname" class="col-sm-2 col-form-label">Fullname</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="Fullname" placeholder="Fullname">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="phone" class="col-sm-2 col-form-label">Phone</label>
+                        <div class="col-sm-10">
+                            <input type="tel" class="form-control" id="phone" placeholder="Phone">
+                        </div>
+                    </div>
+                    <div class="row mb-3 h-50">
+                        <label for="Message" class="col-sm-2 col-form-label">Message</label>
+                        <div class="col-sm-10">
+                             
+                            <textarea class="form-control mb-3" placeholder=" Message "  ></textarea>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-sm-10 offset-sm-2">
+                            <button type="submit" class="btn btn-primary">Send </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+  
